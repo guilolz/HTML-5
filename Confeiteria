@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>DoceDaJaque</title>
+        
+		<style>
+            html { background-color: rgb(63, 62, 62) }
+            main { width:955px; margin:-1px auto 5px; border:1px solid #ddd; background-color:black; font-family:Arial, Helvetica, sans-serif }
+            header { width: 955px; 
+                    height: 180px; 
+                    background-color: black;
+            }
+            nav { width: 955px; background-color: #5D240A }
+            nav ul { list-style:none; margin:0; padding:4px }
+            nav ul li { display:inline-block }
+            nav ul li a { font-size: 0.85em; text-decoration: none; color: #FFF; padding: 4px 20px }
+            nav ul li a:hover { background-color: #B4531A }
+            
+            article { float:left; margin:30px 20px; width:600px }
+            aside {
+                float:left;
+                width:360px;
+                border-top:2px solid #555;
+                border-bottom:2px solid #555;
+                border-right: 2px solid #555;
+                padding: 35px 10px 0px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                background: url(../imagens/aspas.gif) no-repeat;
+
+            }
+
+            aside p{
+                color:grey;
+            }
+            #apoio { float:right; width:300px; margin-top:30px }		
+            footer { clear:both; width:700px; margin:0 auto; font-size:0.75em; text-align:center; background-color:black; padding:5px }
+            
+            h1,h2, h4,address { font-family:Georgia, "Times New Roman", Times, serif; color:red; font-style:italic; letter-spacing:-0.05em }
+            h1 { font-size:2.6em; margin:0 5px; }
+            h4 { font-size:1.6em; margin:0 5px; }
+            p, li { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:0.9em; color:#555; line-height:1.8 }
+        </style>        
+    
+    </head>
+
+    <body>
+        
+        <main>
+    
+            <header>
+                <img src="../imagens/ccccc.jpg" >
+            </header>
+
+            <nav>
+                <ul>
+                  <li><a href="#topo">Principal</a></li>
+                  <li><a href="https://www.instagram.com/doceriadajaque6/" target="_blank">Doces</a></li>
+                  <li><a href="https://www.google.com.br/maps/place/R.+Reinaldo+Giovaneli,+08,+S%C3%A3o+Jos%C3%A9+do+Rio+Pardo+-+SP,+13720-000/@-21.6056613,-46.902026,20z/data=!4m6!3m5!1s0x94b7cdfd4a16fa17:0x129534fc4a754ade!8m2!3d-21.6057677!4d-46.9016817!16s%2Fg%2F11f1r5l_db" target="_blank" >Localização</a></li>
+                </ul>
+            </nav>
+
+            <article>
+                <h1>Doceria da Jaque</h1>
+                <p>Jaqueline Ramos, fundadora e proprietaria da Doceria da Jaque, localizado na grande cidade de São José Do Rio Pardo. A Doceria da Jaque é o favorito de São José há mais de 5 anos, com diversos tipos diferentes de doces tendo como um grande diferencial os estilos diferentes de brigadeiro.</p>
+                <aside>
+                    <p>
+                        O que estou fazendo é <mark>totalmente artesanal</mark> feito por mim e meus empregadores, sendo concluido sempre com a total limpeza e dedicação para uma boa refeição para meus clientes, Disse Jaque:
+                    </p>
+                </aside>
+                <p>Clientes da Doceria Da Jaque recomendam e muito as variedades de brigadeiros e as ultimas adições do menu, são algo que voce nao quer perder, tendo um bom preço acessivel a todos os clientes.</p>
+                <p>Abaixo está localizado algumas de nossa variedades do menu!!</p>
+                <h4>Brigadeiros</h4>
+                <ul>
+                    <li>Brigadeiro de Leite Ninho com Nutella - Feito com Receita Propria</li>
+                    <li>Brigadeiro meio amargo - Feito com Receita Propria</li>
+                    <li>Brigadeiro de Morando - Feito com Receita Propria</li>
+                    <li>Brigadeiro Vegano - Feito com Receita Propria</li>
+                    <li>Brigadeiro Romeu e Julieta - Feita com Receita Propria</li>
+                    <li>Todos tipos de brigadeiros como mencionado acima, recheado com morango,uva e banana</li>
+                </ul>
+
+                <h4>Outros Tipos de Doce</h4>
+                <ul>
+                    <li>Doce de Banana - Receita da Casa</li>
+                    <li>Cone trufado de oreo e outros doces - Receita da Casa</li>
+                    <li>Bem casado doce de leite - Receita da Casa</li>
+                </ul>
+                <address>Contato da Jaque: <a href="https://www.instagram.com/doceriadajaque6/">https://www.instagram.com/doceriadajaque6/ </a> </andress>            
+            </article>
+
+            <div id="apoio">
+                <section class="Fotos_apoio">
+                    <h2>Localização</h2>
+                    <img src="../imagens/localização.jpg" width="275" height="299" />
+                </section>
+
+                <section class="Fotos.apoio">
+                    <h2>Fotos</h2>
+                    <img src="../imagens/doce1.jpg" width="275" height="250" />
+                </section>
+
+                <section class="Fotos.apoio">
+                    <img src="../imagens/doce2.jfif" margin-left="100px"  width="275" height="205" />    
+                </section>
+            </div>
+
+            <footer>
+            <p>Doceria da Jaque - Rua Reinaldo Geovaneli, 8 - São José Do Rio Pardo-SP</p>
+            <small>&copy Copyright - DoceSP todos os direitos reservados.</small>
+            </footer>
+    
+        <main>
+    </body>
+</html>
