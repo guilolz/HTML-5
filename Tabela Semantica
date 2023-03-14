@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <title>Curso HTML5 Essencial</title>
+    </head>
+    
+    <style>
+		body {
+			font-family:Arial, Helvetica, sans-serif;
+		}
+	
+		table { 
+			width:700px;
+			margin:0 auto;
+			border-spacing:0;
+			border-right:1px solid #ccc;
+			border-bottom:1px solid #ccc;
+		}
+		
+		caption {
+			font-size:130%;
+			font-weight:bold;
+			padding:5px 0;
+			background-color:#ECECEC;
+			border:1px solid #ccc;
+			border-bottom:none;
+		}
+		
+		tr, td, th {
+			border:thin solid #ccc;
+			border-bottom:none;
+			border-right:none;
+			padding:5px;
+		}
+		
+		td { 
+			text-align:center;
+		}
+		
+		th {
+			text-align:left;
+		}
+		
+		thead th {
+			text-align:center;
+			background-color:#E0E0E0;
+		}
+
+		thead tr th:first-child {
+			text-align:left;
+		}
+		
+		tfoot td {
+			font-size:.9em;
+			color:#666;
+		}
+		thead th{
+			background-color: white;
+		}
+		
+		tbody tr:nth-child(odd){
+			background-color: bisque;
+		}
+		tbody tr:nth-child(even){
+			background-color: black;
+		}
+	</style>
+
+    <body>
+		
+        <table>	
+
+			<caption>Rank de Tenis da Nike</caption>
+
+			<thead>
+				<tr>
+					<td>Medalhas</td>
+					<th>Ouro</th>
+					<th>Prata</th>
+					<th>Bronze</th>
+					<th>Total</th>
+				</tr>
+			</thead>
+
+			<tfoot>
+				<tr>
+					<td>Jordan cano alto</td>
+					<td>100</td>
+					<td>97</td>
+					<td>94</td>
+					<td>291</td>
+				</tr>
+
+				<tr>
+					<td> Nike Downshifter 11</td>
+					<td>93</td>
+					<td>87</td>
+					<td>86</td>
+					<td>266</td>
+				</tr>
+				
+				<tr>
+					<td> Nike Air Force 1</td>
+					<td>85</td>
+					<td>83</td>
+					<td>79</td>
+					<td>249</td>
+				</tr>
+			</tfoot>
+
+			<tbody>
+
+
+			</tbody>
+        
+        </table>
+
+    </body>
+</html>
