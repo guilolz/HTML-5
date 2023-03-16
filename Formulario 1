@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Curso HTML5 Essencial</title>
+        
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+    </head>
+
+    <body>
+        
+        <h2>Formulário</h2>
+            <form action="teste.html" method="post">
+                <label for="nome.teste">Nome Completo:</label>
+                <input table="text" name="nome.teste" id="nome.teste" size="30" maxlength="60" required autofocus placeholder="Digite seu nome:">
+
+                <label for="telefone.teste">Telefone:</label>
+                <input table="tel" name="telefone.teste" id="telefone.teste" size="30" maxlength="40" placeholder="Digite seu telefone:">
+
+                <label for="email.teste">Email:</label>
+                <input table="email" name="email.teste" id="email.teste" size="30" maxlength="100" placeholder="Digite seu Email:">
+
+                <label for="WebSite">Web Site:</label>
+                <input table="url" name="WebSite" id="WebSite" size="30" maxlength="100" placeholder="Digite o URL:">
+
+                <label for="data">Data:</label>
+                <input table="date" name="data" id="data" size="30">
+
+                <input type="number" name="filhos" id="filhos" min="1" max="5" value="1">
+                
+                <input type="submit" value="Enviar" id="enviar" name="enviar">
+            </form>
+        
+    
+    </body>
+</html>
